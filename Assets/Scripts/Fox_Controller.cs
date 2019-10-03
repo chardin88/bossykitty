@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fox_Controller : MonoBehaviour
+/// <summary>
+/// text for Class Fox_Controller which will allow user input to move fox character
+/// </summary>
+[SerializeField] class Fox_Controller : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
