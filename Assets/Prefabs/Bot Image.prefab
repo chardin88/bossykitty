@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 103986398828913005}
   - component: {fileID: 103986398828912994}
   - component: {fileID: 103986398828913001}
+  - component: {fileID: 2411239503957283987}
   m_Layer: 0
   m_Name: Bot Image
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103986398828912995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.1, y: -0.97, z: 0}
+  m_LocalPosition: {x: 7.584, y: -0.66, z: 0}
   m_LocalScale: {x: 0.937, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -144,3 +145,22 @@ MonoBehaviour:
   speed: 1
   vertical: 0
   changeTime: 3
+--- !u!95 &2411239503957283987
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103986398828912995}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e5d8d6c445d3494cbca5c2553344955, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
